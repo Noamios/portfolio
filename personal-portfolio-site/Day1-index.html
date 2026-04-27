@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noam's Portfolio</title>
+  <link rel="stylesheet" href="Day1-style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Noam Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="auth-button">Follow</button>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm Noam 👋</h1>
+      <p>A passionate full-stack developer building amazing things</p>
+      <button class="cta-button">See My Work</button>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200?text=Todo+App" alt="Project 1">
+        <h3>Todo App</h3>
+        <p>A simple todo list app built with HTML, CSS, and JavaScript with localStorage.</p>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200?text=Movie+Search" alt="Project 2">
+        <h3>Movie Finder</h3>
+        <p>Search for movies and view detailed information using OMDb API.</p>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200?text=Recipe+App" alt="Project 3">
+        <h3>Recipe Finder</h3>
+        <p>Discover recipes and save your favorites with a React app.</p>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+
+      <div class="project-card">
+        <img src="https://via.placeholder.com/300x200?text=Weather+App" alt="Project 4">
+        <h3>Weather App</h3>
+        <p>Get real-time weather data for any city using weather APIs.</p>
+        <a href="#" class="project-link">View Project →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="submit-button">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Noam's Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
